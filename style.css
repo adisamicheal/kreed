@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navigation-right-container ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.navigation-right-container ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1E255E;
+}
+
+.navigation-button {
+    background-color: transparent;
+    border: 1px solid #FF3333;
+    border-radius: 4px;
+    color: #FF3333;
+    padding: 11px 26px;
+    cursor: pointer;
+}
+.navigation-button:hover {
+    background-color: #FF3333;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+/* hero  */
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 88px;
+}
+.bold {
+    font-weight: 800;
+}
+.hero-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    color: #1E255E;
+    max-width: 940px;
+    margin: auto;
+}
+.hero-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(30, 37, 94, 0.7);
+    margin-top: 15px;
+}
+.hero-button {
+    max-width: 200px;
+    margin: auto;
+    background: #FF3333;
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid #FF3333;
+    padding: 19px 36px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.hero-button:hover {
+    background-color: #ffffff;
+    color: #FF3333;
+    transition: 0.3s;
+}
+.hero-image {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 40px;
+}
+.hero-image img {
+    width: 100%;
+}

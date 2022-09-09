@@ -26,6 +26,11 @@ header {
     list-style: none;
     gap: 15px;
 }
+@media screen and (max-width: 940px) {
+    .navigation-right-container {
+        display: none;
+    }
+}
 .navigation-right-container ul li a {
     text-decoration: none;
     font-style: normal;
@@ -55,6 +60,11 @@ header {
     display: flex;
     flex-direction: column;
     padding-top: 88px;
+}
+@media screen and (max-width: 940px) {
+    .hero {
+        padding: 0 30px;
+    }
 }
 .bold {
     font-weight: 800;
